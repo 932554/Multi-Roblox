@@ -1,10 +1,10 @@
-# Multiple Roblox Clients
-C++ multi-threading utility for ROBLOX.
+# Multi-Roblox
+C++ multi-threading utility for Roblox which allows you to open unlimited Roblox instances.
 
 # Usage
 Using this is easy.
 
-1. Close any current ROBLOX instances.
+1. Close any current Roblox instances.
 
 2. Run "Multi-Roblox".
 
