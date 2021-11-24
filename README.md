@@ -1,5 +1,5 @@
 # Multi-Roblox
-C++ multi-client utility for Roblox which allows you to open unlimited Roblox instances.
+C++ multi-instance utility for Roblox which allows you to open unlimited Roblox instances.
 
 # Usage
 Using this is easy.
