@@ -1,16 +1,16 @@
-#include <iostream>
 #include <Windows.h>
+#include <iostream>
 
 int main()
 {
-    SetConsoleTitle("Multi-Roblox");
+    SetConsoleTitleA("Multi-Roblox");
 
-    std::cout << "You will no longer be limited to one Roblox instance" << std::endl << "Closing this will terminate all but one Roblox instance" << std::endl;
-    std::cout << "Press any key to exit..." << std::endl;
+    std::cout << "You will no longer be limited to one Roblox instance" << std::endl
+        << "Closing this will terminate all but one Roblox process" << std::endl;
 
-    CreateMutex(NULL, TRUE, "ROBLOX_singletonMutex");
+    CreateMutexA(nullptr, true, "ROBLOX_singletonMutex");
 
     std::cin.get();
 
-    return -1;
+    return 0;
 }
